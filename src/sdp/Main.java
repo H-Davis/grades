@@ -14,8 +14,25 @@ public class Main {
   }
 
   private static String processGrades(Scanner scanner) {
+    //Scanner scanner = new Scanner(System.in);
+    //System.out.println(scanner.hasNextInt());
 
-    return null;
+    int numCourses = 0;
+    String letterGpa = "";
+    int gpa = 0;
+
+    while(scanner.hasNextLine()){
+      numCourses++;
+      scanner.nextLine();
+    }
+
+    while(scanner.hasNextLine())
+
+
+
+    System.out.println("Courses:"+ numCourses);
+    System.out.println("GPA:");
+
   }
 
   @Test
